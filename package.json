@@ -1,0 +1,21 @@
+{
+  "name": "sparkle",
+  "displayName": "Sparkle",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sparkle",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sparkle-color-theme.json"
+      }
+    ]
+  }
+}
