@@ -1,10 +1,26 @@
 {
 	"name": "sparkle",
 	"colors": {
-		"editor.background": "#262a32",
+		"foreground": "#ffffff",
+
+		"editor.background": "#222630",
 		"editor.foreground": "#eeffff",
+
+		"editorGroupHeader.tabsBackground":"#222630",
+		"tab.inactiveBackground":"#1e232e",
+
+		"sideBar.background": "#222630",
+		"sideBar.border": "#2b2b2b",
+		"sideBarTitle.background":"#1e232e",
+		"sideBarTitle.foreground": "#eeffff",
+		"sideBarSectionHeader.background":"#1e232e",
+		
+		"titleBar.activeBackground": "#222630",
+		"titleBar.inactiveBackground": "#222630",
+		
 		"activityBarBadge.background": "#34436e",
-		"sideBarTitle.foreground": "#eeffff"
+		"activityBar.background": "#1e232e",
+
 	},
 	"tokenColors": [
 		{
@@ -60,15 +76,16 @@
 			}
 		},
 		{
-			"name": "e",
+			"name": "Operator",
 			"scope": [
+				"keyword.operator",
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#ffcfe3"
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Misc",
 			"scope": [
 				"constant.other.color",
 				"meta.tag",
