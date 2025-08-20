@@ -20,7 +20,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Sparkle",
+        "label": "MintSoda",
         "uiTheme": "vs-dark",
         "path": "./themes/mintsoda-color-theme.json"
       }
