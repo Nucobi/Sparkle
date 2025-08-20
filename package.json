@@ -1,7 +1,7 @@
 {
-  "name": "sparkle",
-  "displayName": "Sparkle",
-  "description": "I love this theme",
+  "name": "mintsoda",
+  "displayName": "MintSoda",
+  "description": "Simple pastel-tone theme",
   "version": "0.0.1",
   "publisher": "sleepy9417",
   "engines": {
@@ -11,7 +11,7 @@
     "name": "Nucobi"
   },
   "repository": {
-    "url": "https://github.com/Nucobi/Sparkle.git",
+    "url": "https://github.com/Nucobi/mintsoda.git",
     "type": "git"
   },
   "categories": [
@@ -22,7 +22,7 @@
       {
         "label": "Sparkle",
         "uiTheme": "vs-dark",
-        "path": "./themes/sparkle-color-theme.json"
+        "path": "./themes/mintsoda-color-theme.json"
       }
     ]
   }

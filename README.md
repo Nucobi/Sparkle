@@ -1,4 +1,4 @@
-# Sparkle
+# MintSoda
 
 
 A simple pastel tone dark theme for VSCode.
