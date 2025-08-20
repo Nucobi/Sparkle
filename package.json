@@ -1,10 +1,17 @@
 {
   "name": "sparkle",
   "displayName": "Sparkle",
-  "description": "",
+  "description": "I love this theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.103.0"
+  },
+  "author": {
+    "name": "Nucobi"
+  },
+  "repository": {
+    "url": "https://github.com/Nucobi/Sparkle.git",
+    "type": "git"
   },
   "categories": [
     "Themes"
@@ -12,7 +19,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "sparkle",
+        "label": "Sparkle",
         "uiTheme": "vs-dark",
         "path": "./themes/sparkle-color-theme.json"
       }
