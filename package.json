@@ -3,6 +3,7 @@
   "displayName": "Sparkle",
   "description": "I love this theme",
   "version": "0.0.1",
+  "publisher": "sleepy9417",
   "engines": {
     "vscode": "^1.103.0"
   },
