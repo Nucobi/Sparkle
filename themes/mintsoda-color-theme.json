@@ -1,25 +1,25 @@
 {
 	"name": "mintsoda",
 	"colors": {
-		"foreground": "#ffffff",
+		"foreground": "#eeffff",
 
-		"editor.background": "#20252d",
+		"editor.background": "#1c202a",
 		"editor.foreground": "#eeffff",
 
-		"editorGroupHeader.tabsBackground":"#20252d",
-		"tab.activeBackground": "#20252d",
-		"tab.inactiveBackground":"#252a33",
+		"editorGroupHeader.tabsBackground":"#1c202a",
+		"tab.activeBackground": "#1c202a",
+		"tab.inactiveBackground":"#252c34",
 
-		"sideBar.background": "#20252f",
+		"sideBar.background": "#1c202a",
 		"sideBar.border": "#2b2b2b",
-		"sideBarTitle.background":"#20252f",
-		"sideBarSectionHeader.background":"#20252f",
+		"sideBarTitle.background":"#1c202a",
+		"sideBarSectionHeader.background":"#1c202a",
 		
 		"titleBar.activeBackground": "#263340",
 		"titleBar.inactiveBackground": "#263340",
 		"statusBar.background": "#263340",
 
-		"activityBarBadge.background": "#427797",
+		"activityBarBadge.background": "#66a4ca",
 		"activityBar.background": "#14222c",
 
 		"menu.background": "#272d3a",
@@ -90,6 +90,7 @@
 		{
 			"name": "Type (special)",
 			"scope": [
+				"entity.name.type.numeric",
 				"storage.type.built-in",
 				"storage.type.primitive",
 			],
@@ -129,10 +130,12 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"storage.modifier.import",
+				"storage.modifier.package"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#dfffff"
 			}
 		},
 		{
@@ -181,13 +184,14 @@
 		{
 			"name": "Number, Function Argument, Tag Attribute, Embedded",
 			"scope": [
+				"entity.name.variable.parameter",
 				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#fffdd0"
+				"foreground": "#fffdd0",
 			}
 		},
 		{
@@ -278,7 +282,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ff8b9f"
+				"foreground": "#ffa2b2"
 			}
 		},
 		{
